@@ -1,0 +1,156 @@
+<!--  Tab 6: Contact -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="cache-control" content="no-cache, must-revalidate, post-check=0, pre-check=0">
+    <meta http-equiv="expires" content="Sat, 31 Oct 2020 00:00:00 GMT">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <link rel="shortcut icon" href="images/ou_icon.gif"/>
+    <title>Ziho Kang | Cognitive Engineering and Decision Making Laboratory</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="custom_css.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  
+
+  <body>
+    <!-- Primary Body Container -->
+    <div class="container">
+
+
+        <!-- Title -->
+        <div id="title" class="row">
+            <div  class="col-md-12">
+                
+					<img src="images/title.png" width="50%" height="50%" class="img-responsive">
+					
+					<a href="contact.html">
+					<img border="0" alt="English" src="images/LanguageE.png" width="10%" height="10%" class="img-responsive">
+					</a>
+					
+				    <a href="contactK.html">
+					<img border="0" alt="Kor" src="images/LanguageK.png" width="10%" height="10%" class="img-responsive">
+					</a>
+				
+            </div>
+        </div> <!-- End Title -->
+
+
+        <!-- Nav Bar -->
+        <div class="row">
+            <nav class="navbar navbar-inverse">
+                <div id="nav_container" class="container-fluid">
+
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span> 
+                      </button>
+                    </div>
+
+                    <div id="nav_bar" class="collapse navbar-collapse" aria-expanded="false" style="height: 1px;">
+                      <ul id="tabs" class="nav navbar-nav nav-center">
+                        <li><a href="home.html">HOME</a></li>
+                        <li><a href="people.html">PEOPLE</a></li>
+                        <li><a href="research.html">RESEARCH</a></li>
+                        <li><a href="publications.html">PUBLICATIONS</a></li>
+                        <li><a href="awards.html">AWARDS</a></li>
+                        <li><a href="grants.html">GRANTS</a></li>
+                        <li><a href="teaching.html">TEACHING</a></li>
+                        
+                        <li class="active"><a href="contact.html">CONTACT</a></li>
+                      </ul>
+                    </div>
+                </div> 
+            </nav> 
+        </div> <!-- End Nav Bar -->
+
+
+        <!-- Contact Body -->
+        <div id="contact_body" class="row">
+
+            <!-- Banner -->
+            <div id="banner_container" class="row">
+                <div id="ou_logo" class="row">
+                    <img src="images/ou_logo.png" class="img-responsive">
+                </div>
+            </div> <!-- End Banner -->
+
+            <!-- Contact Text -->
+            <div id="contact_text" class="col-md-6 text-left">
+                <h3>Contact Us</h3>
+                <p>
+                    If you are interested in pursuing research that involves eye tracking, or have any questions about our lab, please feel free to contact us!<br><br>
+                </p>
+                <p>
+                    Industrial and Systems Engineering<br>
+                    University of Oklahoma<br>
+                    Carson Engineering Center<br>
+                    202 West Boyd Street, #116<br>
+                    Norman, OK 73019<br>
+                    <br>
+                    <br>
+                    zihokang@ou.edu<br>
+                    
+                    <br>
+                </p>
+            </div> <!-- End Contact Text -->
+
+            <!-- Map -->
+            <div id="map" class="col-md-6 text-center">
+                <!-- <img src="images/map.png" class="img" style="width: 65%"> -->
+                
+                <div style='overflow:hidden;height:350px;width:500px;'>
+                    <div id='gmap_canvas' style='height:350px;width:500px;'></div>
+                </div> <a href='http://maps-generator.com/'>maps-generator.com</a>
+                
+            </div> <!-- End Map -->
+
+        </div> <!-- End Contact Body -->
+
+        <!-- Bottom Space -->
+        <div id="bottom_space" class="row">
+            <p><br><br><br></p>
+        </div> <!-- End Bottom Space -->
+
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <!--<script type="text/javascript" src="jqeyes-1.0.js"></script> -->
+
+    <!-- Javascript for Map -->
+    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+    <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=ab09478f984feed2b0919ed0f4cc98c67a307cd6'></script>
+    <script type='text/javascript'>function init_map(){var myOptions = {zoom:16,center:new google.maps.LatLng(35.211082,-97.44252389999997),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(35.211082,-97.44252389999997)});infowindow = new google.maps.InfoWindow({content:'<strong>Carson Engineering Center</strong><br>202 West Boyd Street<br>73069 Norman<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+<!--
+<script type="text/javascript">
+   if(window.location.href.substr(-2) !== "?r") {
+      window.location = window.location.href + "?r";
+    }
+</script>
+-->
+  </body>
+
+
+</html>

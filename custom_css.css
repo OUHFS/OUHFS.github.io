@@ -1,0 +1,386 @@
+
+
+body{
+  font-family: arial;
+  color: #3f3f3f;
+}
+
+.container
+{
+  margin-top: 20px;
+}
+
+p{
+  font-size: 16px;
+}
+
+ul{
+  font-size: 16px;
+}
+
+ol{
+  font-size: 16px;
+}
+
+
+
+
+/******* Title ********/
+#title
+{
+  display: inline-block;
+  font-size: 36px;
+  width: auto;
+}
+
+#title_img
+{
+  min-height: 30px;
+  min-width: 250px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+/******* Nav Bar *******/
+.navbar .navbar-nav {
+  display: inline-block;
+  float: center;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+#nav_container
+{
+  border-width: 5px 0px 5px 0px;
+  border-style: solid;
+  border-color: black;
+}
+
+div#nav_container.container-fluid
+{
+  padding: 0px;
+}
+
+.navbar
+{
+  border-width: 0 0 0 0;
+  margin-bottom: 0px;
+}
+
+/* Tab text color */
+.nav > li > a{
+  color: white;
+}
+
+/* Center tabs */
+.nav > li > a:hover,
+.nav > li > a:focus {
+    text-decoration: none;
+    background-color: gray; /* Hover highlight color*/
+}
+
+/* Center navbar-nav */
+@media (min-width: 768px){
+.navbar-nav{
+    margin: 0 auto;
+    display: table;
+    table-layout: fixed;
+    float: none;
+}
+}
+
+/* Space out tabs */ /*
+.navbar-nav > li{
+  padding-left:30px;
+  padding-right:30px;
+}*/
+
+#nav_bar
+{
+  background-color: maroon;
+}
+
+#tabs
+{
+  margin-left: 30px;
+}
+
+
+
+
+/******* Banner *******/
+#banner_container
+{
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#ou_logo
+{
+  position: relative;
+  float: right;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+
+
+/******* Tab 1: Home *******/
+#ou_logo_home
+{
+  position: relative;
+  float: right;
+}
+
+#home_text
+{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+/* Carousel */
+#carousel-example-generic
+{
+  margin: 0 auto;
+}
+
+.carousel
+{
+  background-color: black;
+}
+
+.carousel-inner > .item > img 
+{
+  margin: 0 auto;
+  max-height: 450px;
+}
+
+#home_body
+{
+  border-width: 0px 5px 5px 5px;
+  border-style: solid;
+  border-color: black;
+}
+
+#carousel_container
+{
+  border-width: 0px 0 5px 0;
+  border-style: solid;
+  border-color: black;
+}
+
+
+/* Dynamic Eyes */
+div.eyes {
+  width: 160px;
+  margin-left: 20px;
+  margin-right: 20px;
+  position: relative;
+}
+
+div.left_eye,
+div.right_eye {
+  width: 60px;
+  height: 60px;
+  top: 0;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center center;                  
+}
+
+div.left_eye {
+  left: 0;
+}
+
+div.right_eye {
+  right: 0;
+}
+
+div.eyes div.pupil {
+  left: 17px;
+  top: 17px;
+  width: 25px;
+  height: 25px;
+  position: relative;
+  background-image: url("http://i.imgur.com/GKex9PY.png");
+  background-repeat: no-repeat;
+  background-position: center center;         
+}
+
+#ellipse div.left_eye,
+#ellipse div.right_eye {
+  background-image: url("http://i.imgur.com/HLTwbEI.png");
+}
+
+
+
+
+/******* Tab 2: People *******/
+#people_body
+{
+  border-width: 0px 5px 5px 5px;
+  border-style: solid;
+  border-color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 30px;
+}
+
+#kang_image
+{
+  margin-top: 25px;
+  margin-bottom: 10px;
+  width: 50%;
+}
+#kang_text
+{
+  width: 60%;
+}
+
+#argyle_image
+{
+  margin-top: 25px;
+  margin-bottom: 10px;
+  width: 50%;
+}
+#argyle_text
+{
+  width: 60%;
+}
+
+#mcclung_image
+{
+  margin-top: 25px;
+  margin-bottom: 10px;
+  width: 50%;
+}
+#mcclung_text
+{
+  width: 60%;
+}
+
+#mandal_image
+{
+  margin-top: 25px;
+  margin-bottom: 10px;
+  width: 50%;
+}
+#mandal_text
+{
+  width: 60%;
+}
+
+#jeon_image
+{
+  margin-top: 25px;
+  margin-bottom: 10px;
+  width: 50%;
+}
+#jeon_text
+{
+  width: 60%;
+}
+
+#khamaj_image
+{
+  margin-top: 25px;
+  margin-bottom: 10px;
+  width: 50%;
+}
+#khamaj_text
+{
+  width: 60%;
+}
+
+#naeeri_image
+{
+  margin-top: 25px;
+  margin-bottom: 10px;
+  width: 50%;
+}
+#naeeri_text
+{
+  width: 60%;
+}
+
+
+
+
+/******* Tab 3: Research *******/
+#research_body
+{
+  border-width: 0px 5px 5px 5px;
+  border-style: solid;
+  border-color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 30px;
+}
+
+#research_text
+{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+
+
+/******* Tab 4: Teaching *******/
+#teaching_body
+{
+  border-width: 0px 5px 5px 5px;
+  border-style: solid;
+  border-color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 30px;
+}
+
+#teaching_text
+{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+
+
+/******* Tab 5: Contact *******/
+#contact_body
+{
+  border-width: 0px 5px 5px 5px;
+  border-style: solid;
+  border-color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 30px;
+}
+
+#contact_text
+{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#map
+{
+  margin-top: 30px;
+}
+
+#gmap_canvas img{max-width:none!important;background:none!important}
+
+

@@ -1,0 +1,24 @@
+Notes for CEDM Site
+By Sarah McClung
+12/30/2015
+
+
+REFERENCES:
+w3schools html
+w3schools javascript
+google material design webpage (polymer)
+khan academy (computer programming -> making webpages)
+bootstrap
+
+
+OPEN:
+sublime text (work on this)
+location: Google Drive -> D&S -> CEDM Site
+home - html file
+functions - javascript file
+bootstrap - framework for site (includes interface and libraries)
+LiveReload - downloaded on google chrome (when work is saved i.e. on home file chrome automatically refreshes site to display with updates)
+
+
+NOTES:
+In html code, script is for javascript and style is for css
