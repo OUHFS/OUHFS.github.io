@@ -33,11 +33,17 @@ ol{
   width: auto;
 }
 
+#title img.img-responsive
+{
+  width: 65%;
+  max-width: 100%;
+}
+
 #title_img
 {
   min-height: 30px;
   min-width: 250px;
-  width: 100%;
+  width: 65%;
   margin-left: auto;
   margin-right: auto;
 }
